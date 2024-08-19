@@ -1,0 +1,60 @@
+*{
+      font-family: sans-serif;
+}
+.container{
+      margin-top: 20px;
+
+width: 100vw;
+height: auto;
+border: 1px solid black;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+.dishName{
+      color: #fb8500;
+}
+.info{
+      margin-left: 20px;
+}
+ 
+.ul{
+    
+      font-size: large;
+     cursor: pointer;
+
+}
+
+#img{
+    position: relative;
+    right: 50%;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+
+}
+@media (min-width:768px) {
+      #img{
+width: 500px;
+height: 500px;
+left: 15%;
+      }
+      #backbutton{
+            font-size: large;
+      }
+    }
+    @media (min-width:1024px) {
+      #img{
+width: 600px;
+height: 600px;
+left: 20%;
+      }
+      .container{
+            font-size: large;
+            border: none;
+            overflow-x: hidden;
+      }
+      #backbutton{
+            font-size: large;
+            margin-left: 20px;
+      }
+    }

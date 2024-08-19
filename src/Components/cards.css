@@ -1,0 +1,49 @@
+
+.card-container{
+    background-color: #8d99ae;
+    width: 20rem;
+    margin: auto;
+}
+
+.main-card{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.card-img{
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem;
+}
+.detail{
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.heart{
+    margin-right: 20px;
+}
+.dish-name{
+    color: white;
+    margin-bottom: 2px;
+    
+}
+.tag{
+    margin-left: 0.5rem;
+}
+.tags{
+    color: white;
+    margin-bottom: 2px;
+   
+}
+
+@media (min-width:768px) {
+   .dish-name{
+    font-size:20px ;
+   }
+   .tags{
+   font-size: 16px;
+   
+}
+  }
+

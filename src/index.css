@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif
+}
+
+@media (min-width:768px) {
+  .recipe-div{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;  }
+}
+@media (min-width:1023px) {
+  .recipe-div{
+   
+    grid-template-columns: auto auto auto ;
+      }
+}
